@@ -1,0 +1,137 @@
+
+# Original tema je u source/sandbox/test data/eza.md
+
+# Enable colorful output - when set to true, eza will use colors for file listings
+colourful: true
+
+# Color Reference Guide - These are the Rose Pine theme colors
+# Colors are in format of:
+# color/paletteRef (Description) #color code
+
+# Gold (Terminal Yellow) #f6c177
+# Love (Terminal Red) #eb6f92
+# Rose (Terminal Cyan) #ebbcba
+# Base (Primary Background) #191724
+# Iris (Terminal Magenta) #c4a7e7
+# Foam (Terminal Blue) #9ccfd8
+# Pine (Terminal Green)  #31748f
+# Muted (Low Contrast Foreground) #6e6a86
+# Surface (Secondary Background Atop Base) #1f1d2e
+# Overlay (Tertiary Background Atop Surface) #26233a
+# Subtle (Medium Contrast Foreground) #908caa
+# Text (High Contrast Foreground) #e0def4
+# Highlight Low (Low Contrast Highlight) #21202e
+# Highlight Med (Medium Contrast Highlight) #403d52
+# Highlight High (High Contrast Highlight) #524f67
+
+# File Types Section - Controls the colors of different types of files/directories
+filekinds:
+  normal: {foreground: "#D3D3D3"}      # Regular files
+  directory: {foreground: "#9ccfd8"}   # Directories (folders)
+  symlink: {foreground: "#524f67"}     # Symbolic links
+  pipe: {foreground: "#908caa"}        # Named pipes
+  block_device: {foreground: "#ebbcba"} # Block devices (like hard drives)
+  char_device: {foreground: "#f6c177"} # Character devices (like keyboards)
+  socket: {foreground: "#21202e"}      # Unix sockets
+  special: {foreground: "#c4a7e7"}     # Special files not in other categories
+  executable: {foreground: "#c4a7e7"}  # Executable files
+  mount_point: {foreground: "#403d52"} # Mount points for filesystems
+
+# Permissions Section - Controls the colors of different file permission bits
+perms:
+  user_read: {foreground: "#908caa"}        # Owner read permission (r)
+  user_write: {foreground: "#403d52"}       # Owner write permission (w)
+  user_execute_file: {foreground: "#c4a7e7"} # Owner execute permission for files (x)
+  user_execute_other: {foreground: "#c4a7e7"} # Owner execute for directories/etc
+  group_read: {foreground: "#908caa"}       # Group read permission (r)
+  group_write: {foreground: "#403d52"}      # Group write permission (w)
+  group_execute: {foreground: "#c4a7e7"}    # Group execute permission (x)
+  other_read: {foreground: "#908caa"}       # Other/world read permission (r)
+  other_write: {foreground: "#403d52"}      # Other/world write permission (w)
+  other_execute: {foreground: "#c4a7e7"}    # Other/world execute permission (x)
+  special_user_file: {foreground: "#c4a7e7"} # Special permissions like setuid
+  special_other: {foreground: "#403d52"}    # Other special permissions
+  attribute: {foreground: "#908caa"}        # File attributes (like immutable)
+
+# File Size Section - Controls the colors of file sizes in different ranges
+size:
+  major: {foreground: "#908caa"}           # Major device number
+  minor: {foreground: "#9ccfd8"}           # Minor device number
+  number_byte: {foreground: "#908caa"}     # Size numbers for small files (bytes)
+  number_kilo: {foreground: "#524f67"}     # Size numbers for KB range
+  number_mega: {foreground: "#31748f"}     # Size numbers for MB range
+  number_giga: {foreground: "#c4a7e7"}     # Size numbers for GB range
+  number_huge: {foreground: "#c4a7e7"}     # Size numbers for TB and above
+  unit_byte: {foreground: "#908caa"}       # Unit label for bytes (B)
+  unit_kilo: {foreground: "#31748f"}       # Unit label for kilobytes (K)
+  unit_mega: {foreground: "#c4a7e7"}       # Unit label for megabytes (M)
+  unit_giga: {foreground: "#c4a7e7"}       # Unit label for gigabytes (G)
+  unit_huge: {foreground: "#9ccfd8"}       # Unit label for terabytes and above (T)
+
+# Users and Groups Section - Controls the colors of user/group names
+users:
+  user_you: {foreground: "#f6c177"}        # Your username
+  user_root: {foreground: "#eb6f92"}       # Root user
+  user_other: {foreground: "#c4a7e7"}      # Other users
+  group_yours: {foreground: "#524f67"}     # Groups you belong to
+  group_other: {foreground: "#6e6a86"}     # Groups you don't belong to
+  group_root: {foreground: "#eb6f92"}      # Root group
+
+# Hard Links Section - Controls the colors of link counts
+links:
+  normal: {foreground: "#9ccfd8"}          # Normal link count
+  multi_link_file: {foreground: "#31748f"} # Files with multiple hard links
+
+# Git Status Section - Controls the colors of Git status indicators
+git:
+  new: {foreground: "#9ccfd8"}             # New files in Git
+  modified: {foreground: "#f6c177"}        # Modified files in Git
+  deleted: {foreground: "#eb6f92"}         # Deleted files in Git
+  renamed: {foreground: "#31748f"}         # Renamed files in Git
+  typechange: {foreground: "#c4a7e7"}      # Files with changed type in Git
+  ignored: {foreground: "#6e6a86"}         # Files ignored by Git
+  conflicted: {foreground: "#ebbcba"}      # Files with merge conflicts
+
+# Git Repository Section - Controls the colors of repository status
+git_repo:
+  branch_main: {foreground: "#908caa"}     # Main branch indicator
+  branch_other: {foreground: "#c4a7e7"}    # Non-main branch indicator
+  git_clean: {foreground: "#9ccfd8"}       # Clean repository indicator
+  git_dirty: {foreground: "#eb6f92"}       # Dirty repository indicator
+
+# Security Context Section - Colors for SELinux context fields
+security_context:
+  colon: {foreground: "#908caa"}           # Colon separator in SELinux context
+  user: {foreground: "#9ccfd8"}            # SELinux user context
+  role: {foreground: "#c4a7e7"}            # SELinux role context
+  typ: {foreground: "#6e6a86"}             # SELinux type context
+  range: {foreground: "#c4a7e7"}           # SELinux range context
+
+# File Type Categories - Controls colors for specific categories of files
+file_type:
+  image: {foreground: "#D3D3D3"}           # Image files (.png, .jpg, etc.)
+  video: {foreground: "#D3D3D3"}           # Video files (.mp4, .mkv, etc.)
+  music: {foreground: "#D3D3D3"}           # Music files (.mp3, .ogg, etc.)
+  lossless: {foreground: "#D3D3D3"}        # Lossless audio files (.flac, .wav)
+  crypto: {foreground: "#D3D3D3"}          # Cryptographic files (.asc, .gpg)
+  document: {foreground: "#D3D3D3"}        # Document files (.pdf, .docx)
+  compressed: {foreground: "#D3D3D3"}      # Compressed files (.zip, .tar.gz)
+  temp: {foreground: "#D3D3D3"}            # Temporary files (.tmp, .swp)
+  compiled: {foreground: "#D3D3D3"}        # Compiled files (.o, .pyc)
+  build: {foreground: "#D3D3D3"}           # Build files (Makefile, etc.)
+  source: {foreground: "#D3D3D3"}          # Source code files (.c, .py, etc.)
+
+# UI Elements and Metadata - Colors for various display elements
+punctuation: {foreground: "#524f67"}       # Punctuation and separators in listing
+date: {foreground: "#3685a5"}              # Date/time in listing
+inode: {foreground: "#908caa"}             # Inode numbers
+blocks: {foreground: "#6e6a86"}            # Block count
+header: {foreground: "#908caa"}            # Column headers in tables
+octal: {foreground: "#9ccfd8"}             # Octal permission numbers
+flags: {foreground: "#c4a7e7"}             # File flags
+
+# Symlink Related - Colors for symbolic link paths and broken links
+symlink_path: {foreground: "#9ccfd8"}      # Path that a symlink points to
+control_char: {foreground: "#31748f"}      # Control characters in filenames
+broken_symlink: {foreground: "#eb6f92"}    # Broken symbolic links
+broken_path_overlay: {foreground: "#524f67"} # Overlay color for broken link paths

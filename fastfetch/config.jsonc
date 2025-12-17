@@ -1,0 +1,373 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/Giskard/.config/fastfetch/invader.txt",
+    "color": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": ""
+    },
+    "width": null,
+    "height": null,
+    "padding": {
+      "top": 5,
+      "left": 2,
+      "right": 4
+    },
+    "printRemaining": true,
+    "preserveAspectRatio": true,
+    "recache": false,
+    "position": "left",
+    "chafa": {
+      "fgOnly": false,
+      "symbols": "block+border+space-wide-inverted"
+    }
+  },
+  "display": {
+    "stat": false,
+    "pipe": false,
+    "showErrors": false,
+    "disableLinewrap": true,
+    "hideCursor": false,
+    "separator": " ❯",
+    "color": {
+      "keys": "36",
+      "title": "",
+      "output": "",
+      "separator": ""
+    },
+    "brightColor": true,
+    "duration": {
+      "abbreviation": false,
+      "spaceBeforeUnit": "default"
+    },
+    "size": {
+      "maxPrefix": "YB",
+      "binaryPrefix": "jedec",
+      "ndigits": 2,
+      "spaceBeforeUnit": "default"
+    },
+    "temp": {
+      "unit": "D",
+      "ndigits": 1,
+      "color": {
+        "green": "32",
+        "yellow": "93",
+        "red": "91"
+      },
+      "spaceBeforeUnit": "default"
+    },
+    "percent": {
+      "type": [
+        "num",
+        "num-color"
+      ],
+      "ndigits": 0,
+      "color": {
+        "green": "32",
+        "yellow": "93",
+        "red": "91"
+      },
+      "spaceBeforeUnit": "default",
+      "width": 0
+    },
+    "bar": {
+      "char": {
+        "elapsed": "■",
+        "total": " "
+      },
+      "border": {
+        "left": "[",
+        "right": "]",
+        "leftElapsed": "",
+        "rightElapsed": ""
+      },
+      "color": {
+        "elapsed": "auto",
+        "total": "97",
+        "border": "97"
+      },
+      "width": 10
+    },
+    "fraction": {
+      "ndigits": 2
+    },
+    "noBuffer": false,
+    "key": {
+      "width": 18,
+      "type": "string",
+      "paddingLeft": 0
+    },
+    "freq": {
+      "ndigits": 2,
+      "spaceBeforeUnit": "default"
+    },
+    "constants": []
+  },
+  "general": {
+    "thread": true,
+    "processingTimeout": 5000,
+    "detectVersion": true,
+    "wmiTimeout": 5000
+  },
+  "modules": [
+    {
+      "type": "title",
+      "key": " ",
+      "keyIcon": "",
+      "fqdn": false,
+      "color": {
+        "user": "",
+        "at": "",
+        "host": ""
+      }
+    },
+    {
+      "type": "separator",
+      "string": "-",
+      "outputColor": "",
+      "times": 0
+    },
+    {
+      "type": "os",
+      "keyIcon": ""
+    },
+    // {
+    //   "type": "command",
+    //   "key": "OS Age",  
+    //   "text": "C:/Users/Giskard/.config/fastfetch/os-age.bat"
+    // },
+    {
+      "type": "host",
+      "keyIcon": "󰌢"
+    },
+    {
+      "type": "kernel",
+      "keyIcon": ""
+    },
+    {
+      "type": "uptime",
+      "keyIcon": ""
+    },
+    {
+      "type": "packages",
+      "keyIcon": "󰏖",
+      "disabled": [
+        "winget"
+      ],
+      "combined": false
+    },
+    {
+      "type": "shell",
+      "keyIcon": ""
+    },
+    // {
+    //   "type": "display",
+    //   "keyIcon": "󰍹",
+    //   "compactType": "none",
+    //   "preciseRefreshRate": false,
+    //   "order": "desc"
+    // },
+    {
+      "type": "de",
+      "keyIcon": "",
+      "slowVersionDetection": false
+    },
+    // {
+    //   "type": "wm",
+    //   "keyIcon": "",
+    //   "detectPlugin": false
+    // },
+    // {
+    //   "type": "wmtheme",
+    //   "keyIcon": "󰓸"
+    // },
+    // {
+    //   "type": "theme",
+    //   "keyIcon": "󰉼"
+    // },
+    // {
+    //   "type": "icons",
+    //   "keyIcon": ""
+    // },
+    // {
+    //   "type": "font",
+    //   "keyIcon": ""
+    // },
+    // {
+    //   "type": "cursor",
+    //   "keyIcon": "󰆿"
+    // },
+    {
+      "type": "terminal",
+      "keyIcon": ""
+    },
+    {
+      "type": "terminalfont",
+      "keyIcon": ""
+    },
+    // {
+    //   "type": "cpu",
+    //   "keyIcon": "",
+    //   "temp": false,
+    //   "showPeCoreCount": false
+    // },
+    // {
+    //   "type": "gpu",
+    //   "keyIcon": "󰾲",
+    //   "driverSpecific": false,
+    //   "detectionMethod": "pci",
+    //   "temp": false,
+    //   "hideType": "none",
+    //   "percent": {
+    //     "green": 50,
+    //     "yellow": 80,
+    //     "type": 0
+    //   }
+    // },
+    {
+      "type": "memory",
+      "keyIcon": "",
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 0
+      }
+    },
+    {
+      "type": "swap",
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 0
+      },
+      "keyIcon": "󰓡",
+      "separate": false
+    },
+    {
+    "type": "disk",
+    "key": "System C ",         // Custom name
+    "keyIcon": "",
+    "folders": "C:\\",
+    "format": "{size-percentage-bar} {size-used} | {size-total} [{size-percentage}] {size-available}",
+    "percent": {
+      "green": 50,
+      "yellow": 80,
+      "type": 3
+    }
+    },
+    {
+      "type": "disk",
+      "key": "Default D",        // Custom name
+      "keyIcon": "",
+      "folders": "D:\\",
+      "format": "{size-percentage-bar} {size-used} | {size-total} [{size-percentage}] {size-available}",      
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 3
+      }
+    },
+    {
+      "type": "disk",
+      "key": "Eclipse E",        // Custom name
+      "keyIcon": "",
+      "folders": "E:\\",
+      "format": "{size-percentage-bar} {size-used} | {size-total} [{size-percentage}] {size-available}",
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 3
+      }
+    },
+    {
+      "type": "disk",
+      "key": "Zephyr F ",         // Custom name
+      "keyIcon": "",
+      "folders": "F:\\",
+      "format": "{size-percentage-bar} {size-used} | {size-total} [{size-percentage}] {size-available}",      
+      "percent": {
+        "green": 50,
+        "yellow": 80,
+        "type": 3
+      }
+    },
+    // {
+    //   "type": "disk",
+    //   "keyIcon": "",
+    //   "showRegular": true,
+    //   "showExternal": true,
+    //   "showHidden": false,
+    //   "showSubvolumes": false,
+    //   "showReadOnly": true,
+    //   "showUnknown": false,
+    //   "folders": "C:\\;D:\\;E:\\;F:\\",
+    //   "hideFolders": "",
+    //   "hideFS": "",
+    //   "useAvailable": false,
+    //   "percent": {
+    //     "green": 50,
+    //     "yellow": 80,
+    //     "type": 3
+    //   }
+    // },
+    {
+      "type": "localip",
+      "key": "Local IP ",  
+      "keyIcon": "󰩟",
+      "showIpv4": true,
+      "showIpv6": false,
+      "showMac": false,
+      "showLoop": false,
+      "showPrefixLen": false,
+      "showMtu": false,
+      "showSpeed": false,
+      "showFlags": false,
+      "compact": true,
+      "defaultRouteOnly": true,
+      "showAllIps": false,
+      "namePrefix": ""
+    },
+    {
+      "type": "battery",
+      "keyIcon": "",
+      "useSetupApi": false,
+      "temp": false,
+      "percent": {
+        "green": 50,
+        "yellow": 20,
+        "type": 0
+      }
+    },
+    {
+      "type": "poweradapter",
+      "keyIcon": "󰚥"
+    },
+    // {
+    //   "type": "locale",
+    //   "keyIcon": ""
+    // },
+    "break",
+    {
+      "type": "colors",
+      "key": " ",
+      "keyIcon": "",
+      "symbol": "block",
+      "paddingLeft": 0,
+      "block": {
+        "width": 3,
+        "range": [
+          0,
+          15
+        ]
+      }
+    }
+  ]
+}
