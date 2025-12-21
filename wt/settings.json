@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -11,10 +15,6 @@
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.A6751878"
-        },
-        {
-            "command": "find",
-            "id": "User.find"
         },
         {
             "command": 
@@ -41,12 +41,12 @@
             "keys": "alt+shift+d"
         },
         {
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "User.paste",
             "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "User.copy.644BA8F2",
@@ -88,7 +88,6 @@
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    // "face": "Hack NFM",
                     "face": "JetBrainsMono Nerd Font Mono",
                     "size": 11.6,
                     "weight": "extra-light"
@@ -130,6 +129,19 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "guid": "{143eba4b-4bf6-541d-8873-bc523a98733c}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL",
+                "startingDirectory": "//wsl$/Ubuntu/home/pia"
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": true,
+                "name": "Ubuntu (store version)",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             }
         ]
     },
