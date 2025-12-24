@@ -31,9 +31,9 @@
     ],
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialCols": 126,
+    "initialCols": 139,
     "initialPosition": "0,0",
-    "initialRows": 71,
+    "initialRows": 68,
     "keybindings": 
     [
         {
@@ -110,6 +110,13 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
+                "guid": "{143eba4b-4bf6-541d-8873-bc523a98733c}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL",
+                "startingDirectory": "//wsl$/Ubuntu/home/pia"
+            },
+            {
                 "font": 
                 {
                     "face": "Hack NFM"
@@ -129,13 +136,6 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            },
-            {
-                "guid": "{143eba4b-4bf6-541d-8873-bc523a98733c}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Microsoft.WSL",
-                "startingDirectory": "//wsl$/Ubuntu/home/pia"
             },
             {
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
