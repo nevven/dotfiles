@@ -14,7 +14,7 @@ bars:
     screens: ["DELL P2720DC"]
     class_name: "yasb-bar"
     alignment:
-      position: "top"
+      position: "bottom"
       center: false
     animation:
       enabled: true
@@ -44,8 +44,9 @@ bars:
       # - "komorebi_active_layout"
       - "active_window"
       center:
-      - "clock"
+      # - "clock"
       right:
+      - "clock"
       - "media"
       - "weather"
       - "systray"

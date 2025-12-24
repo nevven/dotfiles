@@ -66,9 +66,10 @@
             "backgroundImage": null,
             "colorScheme": "Dark+",
             "elevate": false,
+            "scrollbarState": "hidden",
             "font": 
             {
-                "face": "JetBrainsMono Nerd Font Mono",
+                "face": "JetBrainsMono NFM",
                 "size": 11.6,
                 "weight": "extra-light"
             },
@@ -88,7 +89,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "JetBrainsMono Nerd Font Mono",
+                    "face": "JetBrainsMono NFM",
                     "size": 11.6,
                     "weight": "extra-light"
                 },
