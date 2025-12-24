@@ -21,6 +21,37 @@ For more information about configuration options, please visit the Wiki https://
     font-weight: 600;
     font-family: "JetBrainsMono NFP";
 }
+.systray {
+    background: transparent;
+}
+
+.systray .widget-container {
+    background: transparent;
+}
+
+.systray .unpinned-container {
+    background: #191919;
+    border-radius: 4px;
+}
+
+.systray .pinned-container {
+    background: transparent;
+}
+
+.systray .button {
+    background: #191919;
+    padding: 2px;
+    border: none;
+}
+
+.systray .button:hover {
+    background: #727272;
+    border-radius: 4px;
+}
+
+.systray .unpinned-visibility-btn {
+    background: transparent;
+}
 .yasb-bar {
     background-color: var(--bg-color1);
     border-radius: 8px;

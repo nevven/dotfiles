@@ -11,7 +11,7 @@ update_check: true # Enable automatic update check.
 bars:
   primary-bar:
     enabled: true
-    screens: ["*"]
+    screens: ["DELL P2720DC"]
     class_name: "yasb-bar"
     alignment:
       position: "top"
@@ -33,10 +33,10 @@ bars:
       width: "100%"
       height: 32
     padding:
-      top: 4
-      left: 4
+      top: 0
+      left: 0
       bottom: 0
-      right: 4
+      right: 0
     widgets:
       left:
       - "home"
@@ -48,7 +48,8 @@ bars:
       right:
       - "media"
       - "weather"
-      - "microphone"
+      - "systray"
+      # - "microphone"
       - "volume"
       - "notifications"
       - "power_menu"
@@ -139,6 +140,25 @@ widgets:
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "▼"
+      label_expanded: "▶"
+      label_position: "left" # Can be "left" or "right"
+      icon_size: 16 # Can be any integer between 8 and 64
+      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
+      show_unpinned: true
+      show_unpinned_button: true
+      show_battery: false
+      show_volume: false
+      show_network: false
+      # btn_shadow:
+      #   enabled: true
+      #   color: "black"
+      #   radius: 3
+      #   offset: [ 1, 1 ]
   # komorebi_workspaces:
   #   type: "komorebi.workspaces.WorkspaceWidget"
   #   options:
