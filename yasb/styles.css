@@ -51,6 +51,7 @@ For more information about configuration options, please visit the Wiki https://
 
 .systray .unpinned-visibility-btn {
     background: transparent;
+    padding: 0 6px;
 }
 .yasb-bar {
     background-color: var(--bg-color1);

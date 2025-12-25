@@ -51,7 +51,7 @@ bars:
       - "weather"
       - "systray"
       # - "microphone"
-      - "volume"
+      # - "volume"
       - "notifications"
       - "power_menu"
 widgets:
@@ -119,18 +119,19 @@ widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
     options:
-      label: "{win[title]}"
+      # label: "{win[title]}"
+      label: " "
       label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
       label_no_window: ""
       label_icon: true
       label_icon_size: 14
       max_length: 30
       max_length_ellipsis: "..."
-      monitor_exclusive: true
+      monitor_exclusive: false
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%a, %d %b %H:%M}"
+      label: "{%A, %d | %H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
@@ -150,7 +151,7 @@ widgets:
       label_position: "left" # Can be "left" or "right"
       icon_size: 16 # Can be any integer between 8 and 64
       pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
-      show_unpinned: true
+      show_unpinned: false
       show_unpinned_button: true
       show_battery: false
       show_volume: false
