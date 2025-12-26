@@ -486,9 +486,11 @@ For more information about configuration options, please visit the Wiki https://
     border: none;
     outline: none;
 }
+
 .calendar .calendar-table::item:selected {
-    color: #000000;
-    background-color: var(--blue);
+    color: var(--blue);
+    background-color: transparent !important;
+    
     border-radius: 10px;
 }
 .calendar .day-label {

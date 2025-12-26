@@ -139,6 +139,9 @@ widgets:
         round_corners: false
         alignment: "center"
         direction: "down"
+        show_holidays: true
+        country_code: "HR"
+        holiday_color: "#FF6464"
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"
