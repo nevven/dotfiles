@@ -58,14 +58,14 @@ widgets:
   home:
     type: "yasb.home.HomeWidget"
     options:
-      label: "<span>\udb81\udf17</span>"
-      menu_list:
-      - { title: "User Home", path: "~" }
-      - { title: "Download", path: "~\\Downloads" }
-      - { title: "Documents", path: "~\\Documents" }
-      - { title: "Pictures", path: "~\\Pictures" }
+      label: "<span>👾</span>"
+      menu_list: []
+      # - { title: "User Home", path: "~" }
+      # - { title: "Download", path: "~\\Downloads" }
+      # - { title: "Documents", path: "~\\Documents" }
+      # - { title: "Pictures", path: "~\\Pictures" }
       system_menu: true
-      power_menu: true
+      power_menu: false
       blur: false
   media:
     type: "yasb.media.MediaWidget"
