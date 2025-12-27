@@ -141,7 +141,7 @@ widgets:
         direction: "down"
         show_holidays: true
         country_code: "HR"
-        holiday_color: "#FF6464"
+        # holiday_color: "#e8ff64ff"
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"

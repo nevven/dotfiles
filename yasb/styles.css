@@ -489,7 +489,7 @@ For more information about configuration options, please visit the Wiki https://
 
 .calendar .calendar-table::item:selected {
     color: var(--blue);
-    background-color: transparent !important;
+    background-color: transparent;
     
     border-radius: 10px;
 }
