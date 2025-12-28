@@ -310,7 +310,7 @@ For more information about configuration options, please visit the Wiki https://
     color: #7a7f8b;
     padding: 0 4px;
     margin: 0;
-    font-family: "JetBrainsMono NFP";
+    font-family: "JetBrainsMono NFM";
     font-weight: 400;
     font-size: 20px;
 }
@@ -340,7 +340,7 @@ For more information about configuration options, please visit the Wiki https://
     font-size: 14px;
     font-weight: 600;
     margin-left: 10px;
-    font-family: 'Segoe UI'
+    font-family: 'JetBrainsMono NFM'
 }
 .media-menu .artist {
     font-size: 13px;
@@ -375,7 +375,7 @@ For more information about configuration options, please visit the Wiki https://
 }
 
 .media-menu .btn {
-    font-family: "Segoe Fluent Icons";
+    font-family: "JetBrainsMono NFM";
     font-size: 14px;
     font-weight: 400;
     margin: 10px 2px 0px 2px;
@@ -404,7 +404,7 @@ For more information about configuration options, please visit the Wiki https://
 
 .media-menu .playback-time {
     font-size: 13px;
-    font-family: 'Segoe UI';
+    font-family: 'JetBrainsMono NFM';
     color: #7f849c;
     margin-top: 20px;
     min-width: 100px;
