@@ -235,6 +235,40 @@ For more information about configuration options, please visit the Wiki https://
     color: var(--text4);
     font-weight: 600;
 }
+/* Taskbar Widget Styles */
+/* .taskbar-widget {
+    padding: 0 6px;
+}
+
+.taskbar-widget .app-container {
+    margin: 0 2px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid transparent;
+} */
+
+/* Hover state for apps */
+/* .taskbar-widget .app-container:hover {
+    background-color: var(--bg-color2);
+} */
+
+/* The currently active (foreground) app */
+/* .taskbar-widget .app-container.foreground {
+    background-color: rgba(68, 143, 255, 0.2);
+    border: 1px solid var(--blue);
+} */
+
+/* Running apps that are not focused */
+/* .taskbar-widget .app-container.running {
+    background-color: transparent;
+} */
+
+/* Flashing apps (needing attention) */
+/* .taskbar-widget .app-container.flashing {
+    background-color: var(--red);
+    color: var(--bg-color1);
+} */
 .microphone-widget {
     padding: 0 6px 0 6px;
 }
