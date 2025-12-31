@@ -16,9 +16,9 @@ For more information about configuration options, please visit the Wiki https://
     --bg-color2: #333333;
 }
 * {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--text1);
-    font-weight: 600;
+    font-weight: 400;
     font-family: "JetBrainsMono NFM";
 }
 .systray {
@@ -234,6 +234,21 @@ For more information about configuration options, please visit the Wiki https://
     margin-bottom: 10px;
     color: var(--text4);
     font-weight: 600;
+}
+/* Color for the brackets [ ] */
+.clock-widget .clock-bracket {
+    color: var(--text1); /* or use a hex code like #89b4fa */
+}
+
+/* Color for the separator | */
+.clock-widget .clock-sep {
+    color: var(--text1);  /* or use a hex code like #f38ba8 */
+}
+
+/* The actual Date and Time text will keep the default text color */
+.clock-widget .label {
+    /* If you want to force the text color specifically for the clock numbers: */
+    color: var(--mauve);
 }
 /* Taskbar Widget Styles */
 /* .taskbar-widget {
