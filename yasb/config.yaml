@@ -99,7 +99,7 @@ widgets:
       label: "{artist} - {title}"
       label_alt: "{artist} - {title}"
       max_field_size:
-        label: 20
+        label: 18
         label_alt: 24
       show_thumbnail: true
       controls_only: false
