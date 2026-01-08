@@ -48,13 +48,13 @@ bars:
       # - "clock"
       right:
       - "media"
-      - "clock"
       - "weather"
       - "systray"
       # - "microphone"
       # - "volume"
       - "notifications"
-      - "power_menu"
+      - "clock"
+      # - "power_menu"
 widgets:
   home:
     type: "yasb.home.HomeWidget"
@@ -181,8 +181,8 @@ widgets:
     type: "yasb.systray.SystrayWidget"
     options:
       class_name: "systray"
-      label_collapsed: "▼"
-      label_expanded: "▶"
+      label_collapsed: "❰"
+      label_expanded: "❱"
       label_position: "left" # Can be "left" or "right"
       icon_size: 16 # Can be any integer between 8 and 64
       pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
@@ -331,7 +331,8 @@ widgets:
   notifications:
     type: "yasb.notifications.NotificationsWidget"
     options:
-      label: "<span>\uf476</span> {count}"
+      # label: "<span class='icon'>\uf476</span> {count}"
+      label: "{count}"
       label_alt: "{count} notifications"
       hide_empty: true
       tooltip: false
