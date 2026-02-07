@@ -66,7 +66,6 @@
             "backgroundImage": null,
             "colorScheme": "Dark+",
             "elevate": false,
-            "scrollbarState": "hidden",
             "font": 
             {
                 "face": "JetBrainsMono NFM",
@@ -76,6 +75,7 @@
             "intenseTextStyle": "none",
             "opacity": 85,
             "padding": "2",
+            "scrollbarState": "hidden",
             "startingDirectory": ".",
             "useAcrylic": true
         },
@@ -111,6 +111,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
+                "colorScheme": "Molokai",
                 "guid": "{143eba4b-4bf6-541d-8873-bc523a98733c}",
                 "hidden": false,
                 "name": "Ubuntu",

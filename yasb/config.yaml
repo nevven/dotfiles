@@ -44,7 +44,7 @@ bars:
       # - "komorebi_workspaces"
       # - "komorebi_active_layout"
       - "active_window"
-      center:
+      # center:
       # - "clock"
       right:
       - "media"
