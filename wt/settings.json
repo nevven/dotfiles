@@ -68,7 +68,7 @@
             "elevate": false,
             "font": 
             {
-                "face": "JetBrainsMono NFM",
+                "face": "JetBrainsMono NF",
                 "size": 11.6,
                 "weight": "extra-light"
             },
@@ -89,7 +89,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "JetBrainsMono NFM",
+                    "face": "JetBrainsMono NF",
                     "size": 11.6,
                     "weight": "extra-light"
                 },
@@ -101,7 +101,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Molokai",
+                "colorScheme": "Dark+",
                 "cursorShape": "bar",
                 "elevate": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -111,7 +111,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Molokai",
+                "colorScheme": "Dark+",
                 "guid": "{143eba4b-4bf6-541d-8873-bc523a98733c}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -150,27 +150,27 @@
     "schemes": 
     [
         {
-            "background": "#121212",
-            "black": "#121212",
-            "blue": "#1080D0",
-            "brightBlack": "#555555",
-            "brightBlue": "#00AFFF",
-            "brightCyan": "#51CEFF",
-            "brightGreen": "#B1E05F",
-            "brightPurple": "#AF87FF",
-            "brightRed": "#F6669D",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFF26D",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#43A8D0",
-            "foreground": "#DADADA",
-            "green": "#98E123",
-            "name": "Molokai",
-            "purple": "#8700FF",
-            "red": "#FA2573",
-            "selectionBackground": "#FFFFFF",
-            "white": "#BBBBBB",
-            "yellow": "#DF6080"
+        "name": "Dark+ Custom",
+        "black": "#000000",
+        "red": "#cd3131",
+        "green": "#0dbc79",
+        "yellow": "#e5e510",
+        "blue": "#2472c8",
+        "purple": "#bc3fbc",
+        "cyan": "#11a8cd",
+        "white": "#e5e5e5",
+        "brightBlack": "#666666",
+        "brightRed": "#f14c4c",
+        "brightGreen": "#23d18b",
+        "brightYellow": "#f5f543",
+        "brightBlue": "#3b8eea",
+        "brightPurple": "#d670d6",
+        "brightCyan": "#29b8db",
+        "brightWhite": "#e5e5e5",
+        "background": "#1e1e1e",
+        "foreground": "#cccccc",
+        "selectionBackground": "#3a3d41",
+        "cursorColor": "#ffffff"
         }
     ],
     "themes": [],
