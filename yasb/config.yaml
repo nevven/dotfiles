@@ -132,11 +132,6 @@ widgets:
         max_title_size: 80
         max_artist_size: 20
         show_source: true
-      label_shadow:
-        enabled: true
-        color: "#000000"
-        radius: 2
-        offset: [ 1, 1 ]
       scrolling_label:
         enabled: true
         update_interval_ms: 50

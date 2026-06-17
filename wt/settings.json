@@ -75,7 +75,7 @@
             "intenseTextStyle": "none",
             "opacity": 85,
             "padding": "2",
-            "scrollbarState": "hidden",
+            "scrollbarState": "visible",
             "startingDirectory": ".",
             "useAcrylic": true
         },
@@ -97,6 +97,7 @@
                 "hidden": false,
                 "intenseTextStyle": "none",
                 "name": "PowerShell",
+                "scrollbarState": "visible",
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
             },
@@ -125,7 +126,8 @@
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "scrollbarState": "visible"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -150,27 +152,27 @@
     "schemes": 
     [
         {
-        "name": "Dark+ Custom",
-        "black": "#000000",
-        "red": "#cd3131",
-        "green": "#0dbc79",
-        "yellow": "#e5e510",
-        "blue": "#2472c8",
-        "purple": "#bc3fbc",
-        "cyan": "#11a8cd",
-        "white": "#e5e5e5",
-        "brightBlack": "#666666",
-        "brightRed": "#f14c4c",
-        "brightGreen": "#23d18b",
-        "brightYellow": "#f5f543",
-        "brightBlue": "#3b8eea",
-        "brightPurple": "#d670d6",
-        "brightCyan": "#29b8db",
-        "brightWhite": "#e5e5e5",
-        "background": "#1e1e1e",
-        "foreground": "#cccccc",
-        "selectionBackground": "#3a3d41",
-        "cursorColor": "#ffffff"
+            "background": "#1E1E1E",
+            "black": "#000000",
+            "blue": "#2472C8",
+            "brightBlack": "#666666",
+            "brightBlue": "#3B8EEA",
+            "brightCyan": "#29B8DB",
+            "brightGreen": "#23D18B",
+            "brightPurple": "#D670D6",
+            "brightRed": "#F14C4C",
+            "brightWhite": "#E5E5E5",
+            "brightYellow": "#F5F543",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#11A8CD",
+            "foreground": "#CCCCCC",
+            "green": "#0DBC79",
+            "name": "Dark+ Custom",
+            "purple": "#BC3FBC",
+            "red": "#CD3131",
+            "selectionBackground": "#3A3D41",
+            "white": "#E5E5E5",
+            "yellow": "#E5E510"
         }
     ],
     "themes": [],

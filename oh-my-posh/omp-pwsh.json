@@ -87,12 +87,14 @@
         {
             "type": "prompt",
             "alignment": "right",
+            "overflow": "hide",
+            "min_width": 80,
             "segments": [
                 {
                     "options": {
                         "time_format": "Monday, 02 15:04"
                     },
-                    "template": " {{ .CurrentDate | date .Format }} ",
+                    "template": " {{ .CurrentDate | date .Format }}  ",
                     "foreground": "#309bbb",
                     "type": "time",
                     "style": "plain"
