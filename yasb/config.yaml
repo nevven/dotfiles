@@ -40,6 +40,7 @@ bars:
     widgets:
       left:
       - "home"
+      - "window_switcher"
       # - "taskbar"
       # - "komorebi_workspaces"
       # - "komorebi_active_layout"
@@ -336,3 +337,24 @@ widgets:
         on_left: "toggle_notification"
         on_right: "do_nothing"
         on_middle: "toggle_label"
+  window_switcher:
+    type: "yasb.window_switcher.WindowSwitcherWidget"
+    options:
+      label: "<span>\uf2d2</span>"
+      icon_size: 48
+      max_visible_apps: 5
+      show_title: true
+      popup:
+        blur: false
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        dark_mode: true
+      callbacks:
+        on_left: "toggle_window_switcher"
+        on_middle: "do_nothing"
+        on_right: "do_nothing"
+      keybindings:
+        - keys: "alt+w"
+          action: "toggle_window_switcher"
+          screen: "cursor"

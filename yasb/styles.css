@@ -42,11 +42,17 @@ For more information about configuration options, please visit the Wiki https://
     background: #191919;
     padding: 2px;
     border: none;
+    outline: none;
 }
 
 .systray .button:hover {
     background: #727272;
     border-radius: 4px;
+}
+
+.systray .button:focus {
+    outline: none;
+    border: none;
 }
 
 .systray .unpinned-visibility-btn {
@@ -580,4 +586,45 @@ For more information about configuration options, please visit the Wiki https://
     font-weight: 900;
     color: rgb(255, 255, 255);
     margin-top: -20px;
+}
+/* Window Switcher Widget */
+.window-switcher-widget {
+    padding: 0 6px;
+}
+.window-switcher-widget .icon {
+    font-size: 16px;
+    color: var(--lavender);
+}
+.window-switcher-widget .icon:hover {
+    color: var(--text1);
+}
+/* Popup container */
+.window-switcher-popup {
+    background-color: var(--bg-color1);
+    border: 1px solid var(--bg-color2);
+    border-radius: 8px;
+    padding: 10px;
+}
+/* Each window item */
+.window-switcher-popup .item {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 10px;
+}
+/* Hover or keyboard-focus highlight */
+.window-switcher-popup .item:hover,
+.window-switcher-popup .item.active {
+    background-color: rgba(68, 143, 255, 0.15);
+    border: 1px solid var(--blue);
+}
+/* Focused window title */
+.window-switcher-popup .title {
+    padding: 10px 10px 5px 10px;
+    color: var(--text1);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    border-top: 1px solid var(--bg-color2);
 }
